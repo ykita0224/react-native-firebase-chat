@@ -1,6 +1,6 @@
 import { Slot, useRouter, useSegments } from 'expo-router';
 import { AuthContext, AuthProvider } from '../context/AuthContext';
-import { useContext, useEffect } from 'react';
+import React, { useContext, useEffect } from 'react';
 import { Text } from 'react-native';
 
 const InitialLayout = () => {

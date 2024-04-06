@@ -55,7 +55,7 @@ const ChatPage = () => {
     <KeyboardAvoidingView style={styles.container} behavior={Platform.OS === 'ios' ? 'padding' : 'height'} keyboardVerticalOffset={100}>
       <FlatList data={messages} keyExtractor={(item) => item.id} renderItem={renderMessage} />
       <View style={styles.inputContainer}>
-        <TextInput multiline value={message} onChangeText={(text) => setMessage(text)} placeholder="Type a message" asd style={styles.messageInput} />
+        <TextInput multiline value={message} onChangeText={(text) => setMessage(text)} placeholder="Type a message" style={styles.messageInput} />
         <Button disabled={message === ''} title="Send" onPress={sendMessage} />
       </View>
     </KeyboardAvoidingView>

@@ -10,6 +10,7 @@
     "@types/react": "~18.0.27",
     "expo": "^48.0.7",
     "expo-constants": "~14.2.1",
+    "expo-device": "~5.2.1",
     "expo-linking": "~4.0.1",
     "expo-router": "^1.2.0",
     "expo-splash-screen": "~0.18.1",
@@ -40,5 +41,9 @@
   },
   "name": "chat-app",
   "version": "1.0.0",
-  "private": true
+  "private": true,
+  "main": "index.js",
+  "repository": "https://github.com/ykita0224/react-native-firebase-chat.git",
+  "author": "yoshi <ykita7766@gmail.com>",
+  "license": "MIT"
 }
